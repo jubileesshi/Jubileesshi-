@@ -218,7 +218,7 @@ Welcome to my little corner of growth, where faith meets learning and every smal
 <p><strong>안녕하세요! (Hello!) 🌸</strong></p>
 
 <p>
-I'm Jubileesshi, someone who believes that every new beginning holds beauty.
+I'm Jubilee, someone who believes that every new beginning holds beauty.
 </p>
 
 <p>
@@ -389,7 +389,7 @@ Whether you're learning Korean, growing in your faith, or simply looking for enc
 
 <br>
 
-<p><strong>Instagram:</strong> @jubileesshi</p>
+<p><strong>Instagram:</strong> @ju_bileesshi</p>
 
 <p><strong>TikTok:</strong> @jubileesshi</p>
 
@@ -467,8 +467,41 @@ text-align:center;
 padding:40px 20px;
 margin-top:60px;
 }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin: 40px 0;
+}
 
+.gallery img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.03);
+}
+
+.gallery-title {
+    text-align: center;
+    margin-top: 60px;
+    color: #7ca58d;
+}
 </style>
+<section id="gallery">
+    <h2 class="gallery-title">My Gallery 📸</h2>
 
+    <div class="gallery">
+        <img src="photo1.jpg" alt="Photo 1">
+        <img src="photo2.jpg" alt="Photo 2">
+        <img src="photo3.jpg" alt="Photo 3">
+        <img src="photo4.jpg" alt="Photo 4">
+        <img src="photo5.jpg" alt="Photo 5">
+        <img src="photo6.jpg" alt="Photo 6">
+    </div>
+</section>
 </body>
-</htmlcontent://com.android.externalstorage.documents/tree/primary%3ADocuments::primary:Documents/index.html
+</html>
